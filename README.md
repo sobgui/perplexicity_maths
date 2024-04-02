@@ -1,5 +1,5 @@
-#Perplex equation
-##Contexte : 
+# Simplexcity equation
+## Contexte : 
 Vous gérez une usine qui produit deux types de produits : A et B. 
 Pour fabriquer chaque unité de produit A, il faut 1 heure de travail sur la machine X et 3 heures sur la machine Y. 
 Chaque unité de produit B nécessite 2 heures de travail sur la machine X et 1 heure sur la machine Y. 
