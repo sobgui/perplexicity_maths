@@ -17,21 +17,21 @@ Soit \( x \) le nombre d'unités de produit A à produire par jour et \( y \) le
 
 Les équations des contraintes sont les suivantes :
 
-1. Contrainte de disponibilité de la machine X : \( 1x + 2y \leq 16 \)
-2. Contrainte de disponibilité de la machine Y : \( 3x + 1y \leq 24 \)
+1. Contrainte de disponibilité de la machine X : 1x + 2y  <= 16
+2. Contrainte de disponibilité de la machine Y : 3x + 1y <= 24 
 
 L'équation de la fonction objectif, représentant le profit total à maximiser, est :
 
-\( \text{Profit total} = 30x + 20y \)
+P = 30x + 20y 
 
 Ainsi, le système d'équations est le suivant :
+x + 2y  <= 16
+3x + y <= 24
+P = 30x + 20y
 
-\[
-\begin{cases}
-1x + 2y \leq 16 \\
-3x + 1y \leq 24 \\
-\text{Profit total} = 30x + 20y
-\end{cases}
-\]
+Maintenant, nous pouvons résoudre ce système d'équations pour déterminer les valeurs optimales de x et y.
 
-Maintenant, nous pouvons résoudre ce système d'équations pour déterminer les valeurs optimales de \( x \) et \( y \).
+### Démarches mathématiques
+- Trouver les points d'intersection des deux inégalités.
+- Calculer la valeur du profit total pour chaque point d'intersection.
+- Sélectionner le point d'intersection qui maximise le profit total.
